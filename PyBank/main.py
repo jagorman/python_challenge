@@ -1,14 +1,21 @@
-import os #importing operating system module
+#importing operating system, statistics, and csv module
+
+import os 
 import statistics
-import csv #importing csv module
+import csv 
 
 #variables
 
-Mnt_Ct= 0 #Month Count
-Total = 0 #Total Amts
-Prof_Loss = [] #profit/loss list
-ListMnt=[] #month list
-MntChange= [] #monthlychange list
+#Month Count
+Mnt_Ct= 0 
+#Total Amts
+Total = 0 
+#profit/loss list
+Prof_Loss = [] 
+#month list
+ListMnt=[] 
+#monthlychange list
+MntChange= [] 
 
 #read and input CSV file
 
